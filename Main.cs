@@ -223,7 +223,7 @@ namespace GunMonkey.Upgrades.MiddlePath
     {
         public override int Path => MIDDLE;
         public override int Tier => 3;
-        public override int Cost => 800;
+        public override int Cost => 3200;
         public override string Description => "Gun monkey now wield a powerful tazer that stuns bloons.";
 
         public override void ApplyUpgrade(TowerModel tower)
@@ -246,7 +246,7 @@ namespace GunMonkey.Upgrades.MiddlePath
     {
         public override int Path => MIDDLE;
         public override int Tier => 4;
-        public override int Cost => 2000;
+        public override int Cost => 8000;
         public override string Description => "Tazer has increase ceramic damage and more pierce.";
 
         public override void ApplyUpgrade(TowerModel tower)
@@ -316,7 +316,7 @@ namespace GunMonkey.Upgrades.BottomPath
     {
         public override int Path => BOTTOM;
         public override int Tier => 3;
-        public override int Cost => 950;
+        public override int Cost => 1950;
         public override string Description => "Shots now explodes on contact";
 
         public override void ApplyUpgrade(TowerModel tower)
@@ -348,7 +348,7 @@ namespace GunMonkey.Upgrades.BottomPath
     {
         public override int Path => BOTTOM;
         public override int Tier => 4;
-        public override int Cost => 1550;
+        public override int Cost => 4550;
         public override string Description => "Why have one when you can have three?";
 
         public override void ApplyUpgrade(TowerModel tower)

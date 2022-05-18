@@ -56,7 +56,7 @@ namespace GunMonkey
         public override int TopPathUpgrades => 5;
         public override int MiddlePathUpgrades => 5;
         public override int BottomPathUpgrades => 5;
-        public override string Description => "Shoots bloons with is gun.";
+        public override string Description => "Shoots bloons with his gun.";
 
         public override ParagonMode ParagonMode => ParagonMode.Base555;
 

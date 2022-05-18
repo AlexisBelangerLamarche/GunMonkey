@@ -5,22 +5,12 @@ using System.Linq;
 using Assets.Scripts.Models.Towers;
 using Assets.Scripts.Models.TowerSets;
 using Assets.Scripts.Models.Towers.Projectiles.Behaviors;
-using Assets.Scripts.Models.Towers.Behaviors;
 using Assets.Scripts.Models.Towers.Filters;
 using Assets.Scripts.Unity;
-using Assets.Scripts.Utils;
-using UnhollowerBaseLib;
 using BTD_Mod_Helper.Api.Towers;
 using BTD_Mod_Helper.Extensions;
 using BTD_Mod_Helper.Api.Display;
-using Assets.Scripts.Models;
-using Assets.Scripts.Models.Towers.Behaviors.Abilities;
-using Assets.Scripts.Models.Towers.Behaviors.Abilities.Behaviors;
-using Assets.Scripts.Models.Towers.Behaviors.Attack;
-using Assets.Scripts.Models.Towers.Behaviors.Attack.Behaviors;
 using Assets.Scripts.Models.Towers.Behaviors.Emissions;
-using Assets.Scripts.Models.Towers.Behaviors.Emissions.Behaviors;
-using Assets.Scripts.Simulation.SMath;
 using Assets.Scripts.Unity.Display;
 
 ///

@@ -35,7 +35,7 @@ namespace GunMonkey
     public class Main : BloonsTD6Mod
     {
 
-        public override string LatestURL => "https://github.com/AlexisBelangerLamarche/GunMonkey/blob/main/GunMonkey.dll?raw=true";
+        public override string GithubReleaseURL => "https://api.github.com/repos/AlexisBelangerLamarche/GunMonkey/releases";
 
         public override void OnMainMenu()
         {

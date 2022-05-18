@@ -23,6 +23,10 @@ using Assets.Scripts.Models.Towers.Behaviors.Emissions.Behaviors;
 using Assets.Scripts.Simulation.SMath;
 using Assets.Scripts.Unity.Display;
 
+///
+/// GOOD LUCK FINDING SHIT BECAUSE I PUT EVERYTHING IN ONE FILE I DONT CARE WOOOOO
+///
+
 [assembly: MelonInfo(typeof(GunMonkey.Main), "Gun Monkey", "1.0.0", "Alexis Belanger")]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 

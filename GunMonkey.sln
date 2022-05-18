@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunMonkey", "GunMonkey.csproj", "{D80139B8-CF16-433C-91F3-3F82FC5245B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D80139B8-CF16-433C-91F3-3F82FC5245B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80139B8-CF16-433C-91F3-3F82FC5245B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80139B8-CF16-433C-91F3-3F82FC5245B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80139B8-CF16-433C-91F3-3F82FC5245B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01746F03-6D6D-4091-94A1-9EDEA408F848}
+	EndGlobalSection
+EndGlobal

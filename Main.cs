@@ -17,7 +17,7 @@ using Assets.Scripts.Unity.Display;
 /// GOOD LUCK FINDING SHIT BECAUSE I PUT EVERYTHING IN ONE FILE I DONT CARE WOOOOO
 ///
 
-[assembly: MelonInfo(typeof(GunMonkey.Main), "Gun Monkey", "0.1.5", "Alexis Belanger")]
+[assembly: MelonInfo(typeof(GunMonkey.Main), "Gun Monkey", "0.1.6", "Alexis Belanger")]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
 namespace GunMonkey
@@ -329,10 +329,12 @@ namespace GunMonkey.Upgrades.BottomPath
                 sound.sound1, sound.sound2, sound.sound3, sound.sound4, sound.sound5);
             tower.GetWeapon().projectile.AddBehavior(soundBehavior);
 
-            var eB = new CreateEffectOnExhaustedModel("CreateEffectOnExhaustedModel_", "", 0f, false,
-                false, effect.effectModel);
+            var eB = new CreateEffectOnExhaustedModel("CreateEffectOnExhaustedModel_", "", 0f, false, false, effect.effectModel);
+
             tower.GetWeapon().projectile.AddBehavior(eB);
             tower.GetWeapon().projectile.AddBehavior(pb);
+            tower.GetWeapon().projectile.GetBehavior<CreateProjectileOnExhaustFractionModel>().projectile.AddBehavior(new DamageModifierForTagModel("DamageModifierForTagModel_Moabs", "Moabs", 1, 15, false, false));
+            tower.GetWeapon().projectile.AddBehavior(new DamageModifierForTagModel("DamageModifierForTagModel_Moabs", "Moabs", 1, 5, false, false));
             tower.GetWeapon().projectile.pierce += 1;
         }
     }

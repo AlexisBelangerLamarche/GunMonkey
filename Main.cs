@@ -17,7 +17,7 @@ using Assets.Scripts.Unity.Display;
 /// GOOD LUCK FINDING SHIT BECAUSE I PUT EVERYTHING IN ONE FILE I DONT CARE WOOOOO
 ///
 
-[assembly: MelonInfo(typeof(GunMonkey.Main), "Gun Monkey", "0.1.4", "Alexis Belanger")]
+[assembly: MelonInfo(typeof(GunMonkey.Main), "Gun Monkey", "0.1.5", "Alexis Belanger")]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
 namespace GunMonkey
@@ -134,7 +134,7 @@ namespace GunMonkey.Upgrades.TopPath
     {
         public override int Path => TOP;
         public override int Tier => 3;
-        public override int Cost => 1700;
+        public override int Cost => 4000;
         public override string Description => "Thats some pretty big bullets.";
 
         public override void ApplyUpgrade(TowerModel tower)

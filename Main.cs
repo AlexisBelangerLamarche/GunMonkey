@@ -248,6 +248,7 @@ namespace GunMonkey.Upgrades.MiddlePath
             tower.GetAttackModel().weapons[1].projectile.pierce *= 2;
             tower.GetAttackModel().weapons[1].Rate *= 0.5f;
             tower.GetAttackModel().weapons[1].projectile.GetDamageModel().damage += 2;
+            tower.GetAttackModel().weapons[1].projectile.AddBehavior(new DamageModifierForTagModel("DamageModifierForTagModel_Camo", "Camo", 1, 10, false, false));
             tower.GetAttackModel().weapons[1].projectile.AddBehavior(new DamageModifierForTagModel("DamageModifierForTagModel_Ceramic", "Ceramic", 1, 10, false, false));
         }
     }
@@ -264,7 +265,7 @@ namespace GunMonkey.Upgrades.MiddlePath
             tower.GetAttackModel().weapons[1].projectile.pierce *= 2;
             tower.GetAttackModel().weapons[1].Rate *= 0.5f;
             tower.GetAttackModel().weapons[1].projectile.GetDamageModel().damage += 5;
-            tower.GetAttackModel().weapons[1].projectile.AddBehavior(new DamageModifierForTagModel("DamageModifierForTagModel_Moabs", "Moabs", 1, 2, false, false));
+            tower.GetAttackModel().weapons[1].projectile.AddBehavior(new DamageModifierForTagModel("DamageModifierForTagModel_Moabs", "Moabs", 1, 5, false, false));
         }
     }
 }

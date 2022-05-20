@@ -17,7 +17,7 @@ using Assets.Scripts.Unity.Display;
 /// GOOD LUCK FINDING SHIT BECAUSE I PUT EVERYTHING IN ONE FILE I DONT CARE WOOOOO
 ///
 
-[assembly: MelonInfo(typeof(GunMonkey.Main), "Gun Monkey", "0.1.6", "Alexis Belanger")]
+[assembly: MelonInfo(typeof(GunMonkey.Main), "Gun Monkey", "0.1.7", "Alexis Belanger")]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
 namespace GunMonkey
@@ -264,6 +264,7 @@ namespace GunMonkey.Upgrades.MiddlePath
             tower.GetAttackModel().weapons[1].projectile.pierce *= 2;
             tower.GetAttackModel().weapons[1].Rate *= 0.5f;
             tower.GetAttackModel().weapons[1].projectile.GetDamageModel().damage += 5;
+            tower.GetAttackModel().weapons[1].projectile.AddBehavior(new DamageModifierForTagModel("DamageModifierForTagModel_Moabs", "Moabs", 1, 2, false, false));
         }
     }
 }
